@@ -1,0 +1,7 @@
+a = int(input('入力：'))
+if a % 3 and a % 5:
+    print("FizzBuzz")
+elif a % 3 == 0:
+    print('Fizz')
+elif a % 5 == 0:
+    print('Buzz')
