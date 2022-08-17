@@ -1,0 +1,8 @@
+a = int(input("整数a:"))
+b = int(input("整数b:"))
+print(a, "+", b, "=", end=" ")  #endによって表示後に自動出力する改行を空文字にしている
+c = int(input())
+if(c == a + b):
+    print("正解！！")
+else:
+    print("間違いだよ")
